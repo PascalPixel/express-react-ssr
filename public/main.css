@@ -5,7 +5,8 @@
 html,
 body,
 #root {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
 }
 
 html {
@@ -14,24 +15,38 @@ html {
   line-height: 1.4;
 }
 
-body,
-div,
-header,
-main,
-footer,
-nav,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
+  font-family: serif;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+body,
+header,
+main,
+footer,
+nav,
+div {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
+}
+
+main {
+  margin: 1rem auto;
+  max-width: 52rem;
 }
 
 nav {

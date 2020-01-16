@@ -1,10 +1,10 @@
 import React from "react";
-import App from "../components/App";
+import Template from "../components/Template";
 
 const Privacy = () => (
-  <App>
+  <Template title="Privacy">
     <h1>Privacy</h1>
-  </App>
+  </Template>
 );
 
 export const title = "Privacy";

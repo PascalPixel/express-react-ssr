@@ -8,7 +8,7 @@ const LINKS = {
   footer: { "/terms": "Terms", "/privacy": "Privacy" }
 };
 
-const App = ({ title = "", children = <span /> }) => {
+const Template = ({ title = "", children = <span /> }) => {
   useEffect(() => {
     document.title = `${title} - ${SITE}`;
   }, []);
@@ -26,4 +26,4 @@ const App = ({ title = "", children = <span /> }) => {
   );
 };
 
-export default App;
+export default Template;

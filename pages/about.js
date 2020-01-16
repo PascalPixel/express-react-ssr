@@ -1,10 +1,10 @@
 import React from "react";
-import App from "../components/App";
+import Template from "../components/Template";
 
 const About = () => (
-  <App>
+  <Template title="About">
     <h1>About</h1>
-  </App>
+  </Template>
 );
 
 export const title = "About";
